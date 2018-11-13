@@ -50,7 +50,7 @@ public class StringTests {
 	        for (int jjj = thePos; jjj > 0; jjj--) 
 	          System.out.println(firstName.charAt(jjj));
 	        firstName = firstName.substring(0,thePos-2);
-	        System.out.println(firstName);
+	        System.out.println("Firstname: " + firstName);
 	      }
 	    }
 	  }
